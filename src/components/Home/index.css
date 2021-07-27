@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+.home-page-bg-container {
+  background-color: #111;
+}
+
+.main-display {
+  padding-top: 10px;
+  padding-left: 40px;
+  width: 100%;
+  margin-top: 10px;
+}

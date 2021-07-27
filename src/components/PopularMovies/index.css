@@ -1,0 +1,19 @@
+@media (orientation: portrait) and (max-width: 576px) {
+  .movie-container {
+    margin: 5px;
+  }
+  .img-props {
+    height: 80px;
+    width: 60px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 600px) {
+  .movie-container {
+    margin: 10px;
+  }
+  .img-props {
+    height: 190px;
+    width: 170px;
+  }
+}

@@ -1,0 +1,95 @@
+.bg-container {
+  background-image: url('https://res.cloudinary.com/dnjj1m9j1/image/upload/v1623858785/netfilx_1_dnrtoo.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies-heading {
+  color: #e50014;
+  text-align: left;
+}
+
+.login-container {
+  background: #0c0b10;
+  opacity: 0.8;
+  border-radius: 8px;
+  width: 456px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+}
+.input-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffffff;
+}
+.username-input-filed {
+  background-color: #333333;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 360px;
+  left: 0px;
+  top: 24px;
+  border-radius: 2px;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.password-input-filed {
+  background-color: #333333;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 360px;
+  left: 0px;
+  top: 24px;
+  border-radius: 2px;
+}
+.login-button {
+  background: #e50914;
+  color: #ffffff;
+  height: 40px;
+  width: 84px;
+  left: 678px;
+  top: 628px;
+  border-radius: 4px;
+  padding: 8px, 20px, 8px, 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.error-message {
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fb923c;
+}
+.error-msg-container {
+  display: flex;
+  justify-content: flex-star;
+}

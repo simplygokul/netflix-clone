@@ -1,0 +1,47 @@
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.originals-heading {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.react-slick-item {
+  width: 100%;
+  background: #111;
+}
+
+.slick-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+.slider-container {
+  width: 100%;
+  margin-left: 60px;
+  height: 200px;
+}
+
+.poster {
+  margin: 0px 10px;
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .poster {
+    margin: 0px 15px;
+    height: 200px;
+    width: 190px;
+  }
+}
